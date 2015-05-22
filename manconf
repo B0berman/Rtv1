@@ -1,0 +1,52 @@
+
+
+séparateurs : ";" (pas de séparateur avant le premier paramètre d'un objet)
+
+'\n' entre chaque objets et après le dernier objet
+
+anti-aliasing : "./rtv1 1"
+
+SPHERE (sp):
+       Rayon
+       x
+       y
+       z
+
+
+LUMIERE (li) :
+	x
+	y
+	z
+
+
+PLAN (pl) :
+     x
+     y
+     z
+     rotate x
+     rotate y
+     rotate z
+
+
+CYLINDRE (cy) :
+	 Rayon
+	 x
+	 y
+	 z
+
+
+CONE (co) :
+     Angle
+     x	
+     y
+     z
+     rotate x
+     rotate y
+     rotate z
+
+
+EXEMPLE :
+
+sp50;0;0;0;
+cy20;0;0;0;0;0;0;
+li500;500;500;'\n'
